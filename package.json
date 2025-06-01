@@ -47,6 +47,7 @@
 		]
 	},
 	"dependencies": {
+		"@fontsource-variable/eb-garamond": "^5.2.5",
 		"mode-watcher": "0.5.1"
 	}
 }
