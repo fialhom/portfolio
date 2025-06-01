@@ -15,27 +15,27 @@
 			<Button href="about" variant="ghost" class="object-center text-white bg-input/10 border-input hover:bg-input/20 hover:text-white">About</Button>
 	</div>-->
 
-	<div class="border grid grid-flow-col grid-cols-4 space-y-3 p-3 gap-2">
+	<div class="border sm:grid grid-flow-col grid-cols-4 space-y-3 p-3 gap-2">
 		<div class="grid gap-6">
 			{#each sections as section}
 				<a href="{section}" class="border block h-fit">
-				<div class="sm:p-15 p-10 rounded-l transition duration-900 mask-r-from-0% mask-l-from-70% mask-t-from-80% mask-b-from-80% hover:bg-violet-200/20 ">
+				<div class="sm:p-15 p-2 rounded-l transition duration-900 mask-r-from-0% mask-l-from-70% mask-t-from-80% mask-b-from-80% hover:bg-violet-200/20 ">
 				<h1 class="border sm:text-3xl text-xl text-white font-serif ml-10 h-fit p-2">{section}</h1>
 				</div>
 				</a>
 			{/each}
-			<div class="h-fit sm:p-15 p-10 border"></div>
+			<div class="h-fit sm:p-15 p-5 border"></div>
 		</div>
-		<div class="border mx-6"></div>
-		<div class="border grid col-span-2 p-4 gap-2">
-			<h1 class="sm:text-3xl text-md text-white font-serif ml-10 mt-10">Luis M. Fialho</h1>
+		<div class="sm:border mx-6"></div>
+		<div class="border sm:grid col-span-2 p-4 gap-2">
+			<h1 class="sm:text-3xl text-xl text-white font-serif ml-10 mt-10">Luis M. Fialho</h1>
 			{#each {length: sectNum} as num}
-			<div class="border col-span-4"></div>
+			<div class="border col-span-4 p-1"></div>
 			{/each}
 			<div class="border col-span-4 p-2">
 				<br>
-				<p class="sm:text-lg text-md text-white font-serif ml-10 h-fit mt-10">This website is a portfolio of the work I have done professionally, academically, and personally.</p>
-				<p class="sm:text-lg text-md text-white font-serif ml-10 h-fit">contact: email</p>
+				<p class="sm:text-lg text-md text-white font-serif ml-10 h-fit sm:mt-10">This website is a portfolio of the work I have done professionally, academically, and personally.</p>
+				<p class="sm:text-lg text-md text-white font-serif ml-10 h-fit mt-5">contact: email</p>
 			</div>
 		</div>
 	</div>
