@@ -24,3 +24,6 @@ vite.config.ts.timestamp-*
 
 # Static
 /static/files/*.py
+
+# Backup
+/src/lib/data/metadata.json.backup

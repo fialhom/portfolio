@@ -4,7 +4,7 @@
 	import { Button } from "$lib/components/ui/button/index.js";
 	import { toggleMode } from "mode-watcher";
 
-	const sections = ["writing", "curricula", "code", "music", "video"]
+	const sections = ["writing", "code", "curricula", "music", "video"]
 	const sectNum = sections.length
 
 </script>

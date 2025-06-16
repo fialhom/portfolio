@@ -1,0 +1,170 @@
+[
+    {
+        "id": "free_lunch",
+        "category": "code",
+        "title": "No Such Thing As A Free Lunch",
+        "date": "2024-03",
+        "description": "A Data Visualization of Free and Reduced Lunch in the United States. Made using python and dash, this visualization was generated using publically available data from the National Center for Education Statistics (NCES).",
+        "local": true,
+        "url": "https://github.com/fialhom/FreeLunch",
+        "tags": [
+            "python",
+            "analysis",
+            "data",
+            "visualization",
+            "education",
+            "statistics"
+        ],
+        "username": "fialhom",
+        "image": true,
+        "image_url": "https://github.com/fialhom/FreeLunch/blob/main/fig_01.png"
+    },
+    {
+        "id": "PKD_Corpus",
+        "category": "code",
+        "title": "Corpus Analysis of Philip K Dick",
+        "date": "2024-02",
+        "description": "Created topic models, keyword analysis, and similarity matrices from TEI formatted and vectorized corpus of Philp K Dick works, analyzed with PhiloLogic to produce concordance and key-word trends and cleaned and\nNLP pre-processed. Focused on qualitative interpretation of results, as well as the reasoning and logic behind specific choices and their outcomes during both pre and post processing of the data.",
+        "local": false,
+        "url": "https://github.com/fialhom/PKD-CorpusStatistics",
+        "tags": [
+            "sci-fi",
+            "dick",
+            "corpus",
+            "vectorization",
+            "python",
+            "text",
+            "analysis",
+            "statistics"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "lessondb",
+        "category": "code",
+        "title": "SQL Lesson Plan Database",
+        "date": "2024-12",
+        "description": "A 3NF SQL database with modular lesson plan data and custom schema. Contains sample queries\nto produce illsutrative examples of the database structure and reasoning.",
+        "local": false,
+        "url": "https://github.com/fialhom/LessonPlan-Database",
+        "tags": [
+            "data",
+            "education",
+            "sql",
+            "lesson",
+            "metadata",
+            "schema",
+            "database",
+            "query"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "lessongui",
+        "category": "code",
+        "title": "Visual Lesson Plan Interface",
+        "date": "2023-08",
+        "description": "Made a user-interface for my personal Lesson Plan and Agenda software using Tkinter. Used to display all lesson plan data in a rotating schedule with an editing interface; saved all data to local JSON.",
+        "local": false,
+        "url": "https://github.com/fialhom/LessonPlan-Interface",
+        "tags": [
+            "data",
+            "database",
+            "education",
+            "lesson",
+            "python",
+            "visualization"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "free_lunch",
+        "category": "code",
+        "title": "No Such Thing As A Free Lunch",
+        "date": "2024-03",
+        "description": "A Data Visualization of Free and Reduced Lunch in the United States. Made using python and dash, this visualization was generated using publically available data from the National Center for Education Statistics (NCES).",
+        "local": true,
+        "url": "https://github.com/fialhom/FreeLunch",
+        "tags": [
+            "python",
+            "analysis",
+            "data",
+            "visualization",
+            "education",
+            "statistics"
+        ],
+        "username": "fialhom",
+        "image": true,
+        "image_url": "https://github.com/fialhom/FreeLunch/blob/main/fig_01.png"
+    },
+    {
+        "id": "PKD_Corpus",
+        "category": "code",
+        "title": "Corpus Analysis of Philip K Dick",
+        "date": "2024-02",
+        "description": "Created topic models, keyword analysis, and similarity matrices from TEI formatted and vectorized corpus of Philp K Dick works, analyzed with PhiloLogic to produce concordance and key-word trends and cleaned and\nNLP pre-processed. Focused on qualitative interpretation of results, as well as the reasoning and logic behind specific choices and their outcomes during both pre and post processing of the data.",
+        "local": false,
+        "url": "https://github.com/fialhom/PKD-CorpusStatistics",
+        "tags": [
+            "sci-fi",
+            "dick",
+            "corpus",
+            "vectorization",
+            "python",
+            "text",
+            "analysis",
+            "statistics"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "lessondb",
+        "category": "code",
+        "title": "SQL Lesson Plan Database",
+        "date": "2024-12",
+        "description": "A 3NF SQL database with modular lesson plan data and custom schema. Contains sample queries\nto produce illsutrative examples of the database structure and reasoning.",
+        "local": false,
+        "url": "https://github.com/fialhom/LessonPlan-Database",
+        "tags": [
+            "data",
+            "education",
+            "sql",
+            "lesson",
+            "metadata",
+            "schema",
+            "database",
+            "query"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "lessongui",
+        "category": "code",
+        "title": "Visual Lesson Plan Interface",
+        "date": "2023-08",
+        "description": "Made a user-interface for my personal Lesson Plan and Agenda software using Tkinter. Used to display all lesson plan data in a rotating schedule with an editing interface; saved all data to local JSON.",
+        "local": false,
+        "url": "https://github.com/fialhom/LessonPlan-Interface",
+        "tags": [
+            "data",
+            "database",
+            "education",
+            "lesson",
+            "python",
+            "visualization"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    }
+]
