@@ -27,7 +27,8 @@
             
             {#each data as entry}
             {#if entry.category === slugurl}
-                <div class="border p-1 col-span-1"></div>
+                <div class="border p-1 col-span-1">
+                </div>
                 <div class="border p-1 col-span-4 space-y-1">
                     <div class="border p-2">
                         <a href="{entry.url}" class="h-fit">
