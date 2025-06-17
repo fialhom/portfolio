@@ -416,5 +416,24 @@
         "username": "OG2N",
         "image": false,
         "image_url": ""
+    },
+    {
+        "id": "portfolio",
+        "category": "code",
+        "title": "Portfolio Website",
+        "date": "2025-06",
+        "description": "Dynamic website made with Svelte and styled with Tailwind",
+        "local": false,
+        "url": "/",
+        "tags": [
+            "javascript",
+            "html",
+            "css",
+            "svelte",
+            "tailwind"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
     }
 ]

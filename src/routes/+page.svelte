@@ -10,9 +10,9 @@
 </script>
 <div class="bg-[url('/images/bg_01.jpg')] w-screen bg-cover bg-center min-h-screen p-2">
 
-<div class="border sm:grid grid-flow-col grid-cols-4 space-y-3 p-3 gap-2">
-	<div class="grid gap-6">
-		<div class="sm:p-1 border">
+<div class="border sm:grid grid-flow-col grid-cols-5 space-y-3 p-3 gap-2">
+	<div class="grid gap-6 col-span-2">
+		<div class="sm:p-1 border ">
 			<a href="recent" class="border block">
 			<div class="sm:p-4 mb-6 p-2 rounded-l transition duration-900 mask-r-from-0% mask-l-from-70% mask-t-from-80% mask-b-from-80% hover:bg-violet-300/60 ">
 			<h1 class="border sm:text-3xl text-xl text-white font-serif p-2 italic overline">recent work</h1>
