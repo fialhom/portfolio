@@ -23,7 +23,7 @@
 			</a>
 		</div>
         <ScrollArea class="sm:max-h-[80vh] max-h-[70vh] overflow-auto" type="auto">
-        <div class="border grid grid-cols-5 p-2 space-y-2 space-x-2">
+        <div class="border grid grid-cols-5 p-2 space-y-5 space-x-2">
             
             {#each data as entry}
             {#if entry.category === slugurl}
@@ -32,16 +32,14 @@
                 <div class="border p-1 col-span-4 space-y-1">
                     <div class="border p-2">
                         <a href="{entry.url}" class="h-fit">
-                        <div class="p-2 rounded-l transition duration-900 mask-r-from-50% mask-l-from-95% mask-t-from-80% mask-b-from-80% hover:bg-violet-200/30 ">
-                            <h2 class="border sm:text-3xl text-xl text-white font-serif h-fit">{entry.title}</h2>
-                            <p class="text-white mt-3">{entry.date.slice(0,4)}</p>
+                        <div class="p-2 rounded-l transition duration-900 sm:mask-r-from-50% mask-l-from-97% mask-t-from-80% mask-b-from-80% hover:bg-violet-200/30 ">
+                            <h2 class="dark:underline decoration-dotted sm:underline-offset-10 border sm:text-3xl text-xl text-white font-serif h-fit sm:ml-15">{entry.title}</h2>
+                            <p class="border text-white mt-1 sm:ml-15 font-serif font-light sm:text-lg text-md italic">{entry.date.slice(0,4)}</p>
+                            <p class="border text-white mt-1 sm:ml-15 font-serif sm:text-lg text-md">{entry.description}</p>
                         </div>
                         </a>
                     </div>
-                    <div class="border sm:p-5 p-1 transition duration-900">
-                        <p class="border h-fit text-white font-serif">{entry.description}</p>
-                    </div>
-                    </div>
+                          </div>
             {/if}
             {/each}
         </div>
