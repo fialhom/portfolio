@@ -46,7 +46,7 @@
         "category": "code",
         "title": "SQL Lesson Plan Database",
         "date": "2024-12",
-        "description": "A 3NF SQL database with modular lesson plan data and custom schema. Contains sample queries\nto produce illsutrative examples of the database structure and reasoning.",
+        "description": "A 3NF SQL database with modular lesson plan data and custom schema. Contains sample queries to produce illustrative examples of the database structure and reasoning.",
         "local": false,
         "url": "https://github.com/fialhom/LessonPlan-Database",
         "tags": [
@@ -80,6 +80,340 @@
             "visualization"
         ],
         "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "symbol",
+        "category": "writing",
+        "title": "Symbol",
+        "date": "2023-01",
+        "description": "Visual Poem",
+        "local": true,
+        "url": "/files/writing/symbol.pdf",
+        "tags": [
+            "poetry",
+            "symbol",
+            "simulacra"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "chatgpt",
+        "category": "writing",
+        "title": "ChatGPT as a Means of Understanding Human Freedom",
+        "date": "2023-01",
+        "description": "Article on the advent of ChatGPT and creativity",
+        "local": true,
+        "url": "/files/writing/chatgpt.pdf",
+        "tags": [
+            "simulacra",
+            "article",
+            "ai",
+            "chatgpt",
+            "freedom",
+            "nonfiction"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "piracy",
+        "category": "writing",
+        "title": "Is a Pirate\u2019s Life Really the Life for Me?",
+        "date": "2020-08",
+        "description": "Article on copyright and copyleft, and various forms of downloading digital content",
+        "local": true,
+        "url": "/files/writing/piracy.pdf",
+        "tags": [
+            "piracy",
+            "copyright",
+            "copyleft",
+            "digital",
+            "article",
+            "nonfiction"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "joyfish",
+        "category": "writing",
+        "title": "The Joy of Fish",
+        "date": "2019-01",
+        "description": "Summary review and analysis of Philip J Ivanhoe's \"Oneness Hypothesis\"",
+        "local": true,
+        "url": "/files/writing/joy_of_fish.pdf",
+        "tags": [
+            "article",
+            "summary",
+            "oneness",
+            "daoism",
+            "philosophy"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "catperson",
+        "category": "writing",
+        "title": "Cardboard Cutout Personality in \"Cat Person\"",
+        "date": "2019-01",
+        "description": "Essay on Roupenian short story",
+        "local": true,
+        "url": "/files/writing/cat_person.pdf",
+        "tags": [
+            "essay",
+            "analysis",
+            "simulacra",
+            "literature"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "LionKingFrozen",
+        "category": "writing",
+        "title": "The Wolf in Grandmother's Clothes: Monarchies in Disney's Frozen",
+        "date": "2020-01",
+        "description": "Essay analyzing the Monarch's journey in Frozen and The Lion King, concluding with an analyis of power, sisterhood, and class.",
+        "local": true,
+        "url": "/files/writing/LionKingFrozen.pdf",
+        "tags": [
+            "disney",
+            "frozen",
+            "lionking",
+            "analysis",
+            "essay",
+            "film"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "hemroids",
+        "category": "writing",
+        "title": "The Brutal Reality of Living is Inescapable",
+        "date": "2021-01",
+        "description": "Poem",
+        "local": true,
+        "url": "/files/writing/hemroids.pdf",
+        "tags": [
+            "poetry",
+            "suffering"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "ukraine_ai",
+        "category": "writing",
+        "title": "Baudrillard Sipping Amphetamines: Writing About Random News Articles Part 2",
+        "date": "2022-03",
+        "description": "Short pastiche of Simulacra and Simulation",
+        "local": true,
+        "url": "/files/writing/ukraine_ai.pdf",
+        "tags": [
+            "pastiche",
+            "ai",
+            "simulacra",
+            "article",
+            "copy"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "kingclay",
+        "category": "writing",
+        "title": "The King and Clay",
+        "date": "2018-01",
+        "description": "Short story",
+        "local": true,
+        "url": "/files/writing/kingclay.pdf",
+        "tags": [
+            "story",
+            "fiction",
+            "digital"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "intimatespace",
+        "category": "writing",
+        "title": "The Intimate Space Between Molecules",
+        "date": "2019-01",
+        "description": "Essay on DeLillo's White Noise",
+        "local": true,
+        "url": "/files/writing/intimatespace.pdf",
+        "tags": [
+            "essay",
+            "analysis",
+            "post-modern",
+            "delillo"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "searchbar",
+        "category": "writing",
+        "title": "Searchbar Seduction",
+        "date": "2022-01",
+        "description": "Revised and updated article on the effects of using a Searchbar",
+        "local": true,
+        "url": "/files/writing/searchbarseduction.pdf",
+        "tags": [
+            "article",
+            "searchbar",
+            "digital",
+            "ai",
+            "nonfiction",
+            "philosophy",
+            "copy"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "manwalks",
+        "category": "writing",
+        "title": "Man Walks Into A Searchbar",
+        "date": "2019-01",
+        "description": "Article on the effects of using a searchbar",
+        "local": true,
+        "url": "/files/writing/manwalksinto.pdf",
+        "tags": [
+            "article",
+            "digital",
+            "searchbar",
+            "copy"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "critique",
+        "category": "writing",
+        "title": "Critique of the Privatization of Content",
+        "date": "2020-01",
+        "description": "Manifesto on the privatization of content and copyright",
+        "local": true,
+        "url": "/files/writing/critique.pdf",
+        "tags": [
+            "copyright",
+            "digital",
+            "philosophy",
+            "piracy",
+            "copy"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "daffodil",
+        "category": "writing",
+        "title": "Legend of the Daffodil",
+        "date": "2019-01",
+        "description": "Short story retelling the Myth of Narcissus",
+        "local": true,
+        "url": "/files/writing/daffodil.pdf",
+        "tags": [
+            "narcissus",
+            "myth",
+            "digital",
+            "copy"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "defininguser",
+        "category": "writing",
+        "title": "Defining User: A Review of the Internet",
+        "date": "2020-05",
+        "description": "Review analysis of the iternet from 1995-2017, analyzing vocabulary surrounding internet usage",
+        "local": true,
+        "url": "/files/writing/defining_user.pdf",
+        "tags": [
+            "user",
+            "review",
+            "analysis",
+            "internet",
+            "digital",
+            "copy",
+            "freedom"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "dance",
+        "category": "writing",
+        "title": "Dance of the Marionette",
+        "date": "2020-05",
+        "description": "Poetry chapbook with themes of digital engagement",
+        "local": true,
+        "url": "/files/writing/dance_chapbook.pdf",
+        "tags": [
+            "poetry",
+            "digitial",
+            "internet",
+            "freedom",
+            "copy"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "considerations",
+        "category": "writing",
+        "title": "Considerations",
+        "date": "2022-01",
+        "description": "Concrete Poem",
+        "local": true,
+        "url": "/files/writing/considerations.pdf",
+        "tags": [
+            "poetry",
+            "love"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "hashtagmetaverse",
+        "category": "music",
+        "title": "hashtag metaverse",
+        "date": "2022-01",
+        "description": "Experimental electronic EP",
+        "local": false,
+        "url": "https://og2n.bandcamp.com/album/hashtag-metaverse",
+        "tags": [
+            "metaverse",
+            "ai",
+            "electronic",
+            "experimental"
+        ],
+        "username": "OG2N",
         "image": false,
         "image_url": ""
     }
