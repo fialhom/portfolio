@@ -11,7 +11,22 @@
     import data  from '$lib/data/metadata.json';
 
     const slugurl = page.params.slug;
+    const slugItems = data.filter(item => item.category === slugurl);
+    console.log(slugItems)
+
     let search: string = $state<string>('');
+    let filterItems = $derived(
+        search === ''
+        ? slugItems
+        : slugItems.filter((entry) => {
+            const searchLower = search.toLocaleLowerCase();
+            const nameMatch = entry.title.toLocaleLowerCase().includes(searchLower)
+            const tagMatch = entry.tags.toString().toLocaleLowerCase().includes(searchLower)
+            const descMatch = entry.description.toLocaleLowerCase().includes(searchLower)
+            return nameMatch || tagMatch || descMatch
+        }
+    )
+    );
 
 </script>
 
@@ -32,8 +47,7 @@
         <ScrollArea class="sm:max-h-[80vh] max-h-[70vh] overflow-auto" type="auto">
         <div class="border grid grid-cols-8 p-2 space-y-5 space-x-2">
             
-            {#each data as entry}
-            {#if entry.category === slugurl}
+            {#each filterItems as entry}
                 <div class="border p-1 col-span-2"></div>
                 <div class="border p-1 col-span-5 space-y-1">
                     <div class="border p-2">
@@ -47,7 +61,6 @@
                     </div>
                 </div>
                 <div class="border p-1 col-span-1"></div>
-            {/if}
             {/each}
         </div>
     </ScrollArea>
