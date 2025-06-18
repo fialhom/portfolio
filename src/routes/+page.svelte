@@ -15,7 +15,7 @@
 		<div class="sm:p-1 border ">
 			<a href="everything" class="border block">
 			<div class="sm:p-4 mb-6 p-2 rounded-l transition duration-900 mask-r-from-0% mask-l-from-70% mask-t-from-80% mask-b-from-80% hover:bg-violet-300/60 ">
-			<h1 class="border sm:text-3xl text-xl text-white font-serif p-2 italic overline">everything</h1>
+			<h1 class="border sm:text-3xl text-xl text-white font-serif p-2 italic overline ">everything</h1>
 			</div>
 			</a>
 		</div>
@@ -33,7 +33,7 @@
 	</div>
 	<div class="border sm:grid col-span-2 p-4 gap-2">
 		<div class="border col-span-4 p-1">
-		<h1 class="border md:text-4xl text-2xl text-white font-serif lg:mx-12 mx-2 mt-12 col-span-4 p-2"><a href="about" class="transition duration-700 sm:p-5 hover:text-violet-100 opacity-70 hover:opacity-100">Luis M. Fialho</a></h1>
+		<h1 class="border md:text-4xl text-2xl text-white font-serif lg:mx-12 mx-2 mt-12 col-span-4 p-2"><a href="about" class=" dark:underline decoration-dotted sm:underline-offset-10 transition duration-700 sm:p-5 hover:text-red-100 opacity-70 hover:opacity-100">Luis M. Fialho</a></h1>
 		</div>
 		{#each {length: sectNum} as num}
 		<div class="md:border col-span-4 p-1"></div>

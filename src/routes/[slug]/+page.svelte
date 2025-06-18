@@ -44,7 +44,7 @@
 			</a>
             <div class="col-span-2 flex sm:p-4 p-2 rounded-l space-x-1">
                 <h3 class="border sm:text-3xl text-lg text-white font-serif p-2 capitalize text-center">{slugurl}</h3>
-                <h3 class="border sm:text-xl text-md text-white font-serif p-2 capitalize text-center">{filterItems.length}</h3>
+                <h3 class="border sm:text-xl text-md text-white font-serif oldstyle-nums p-2 capitalize text-center">{filterItems.length}</h3>
             </div>
             </div>
             <div class="p-1">
