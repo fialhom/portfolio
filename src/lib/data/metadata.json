@@ -321,7 +321,7 @@
             "piracy",
             "copy"
         ],
-        "username": "",
+        "username": "thecopied",
         "image": false,
         "image_url": ""
     },
@@ -530,23 +530,62 @@
         "image": false,
         "image_url": ""
     },
-        {
-        "id": "reactions_ep",
-        "category": "music",
-        "title": "Reactions to Content [EP]",
-        "date": "2021-07",
-        "description": "Each track is a triad of audio, image, and description. The image is a condensation of digital phenomena; the audio is a response to the image; the video is an exaggeration in parallel of the image; the description is perpendicular to and intersects with both the image and the audio.",
-        "local": false,
-        "url": "https://www.youtube.com/watch?v=AydC7TDUvMs",
+    {
+        "id": "unitguide",
+        "category": "curricula",
+        "title": "Identity and Reputation Unit Guide for 11 ELA",
+        "date": "2019-12",
+        "description": "Unit guide aligned to CC standards for 11 ELA in a Massachuseets public school, focused on Identity and Reputation with the Great Gatsby.",
+        "local": true,
+        "url": "/files/curricula/unit_guide_ela11.pdf",
         "tags": [
-            "experimental",
-            "music",
-            "video",
-            "electronic",
-            "content",
-            "glitch"
+            "ela",
+            "unit",
+            "gatsby",
+            "11th",
+            "common core"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "adamb",
+        "category": "code",
+        "title": "Adam Baudrillard, the First Icon",
+        "date": "2020-10",
+        "description": "HTML Simulacra of the New Yorker",
+        "local": false,
+        "url": "https://thecopied.github.io/pages/things/adambaudrillard/adambaudrillard.html",
+        "tags": [
+            "html",
+            "new yorker",
+            "simulacra",
+            "copy",
+            "digital",
+            "fiction"
         ],
         "username": "Manuel Pereira",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "copymachine",
+        "category": "code",
+        "title": "copymachine",
+        "date": "2021-01",
+        "description": "Code art piece on copyright and infinity",
+        "local": false,
+        "url": "https://thecopied.github.io/pages/things/copymachine/copymachine.html",
+        "tags": [
+            "copyright",
+            "copy",
+            "artwork",
+            "machine",
+            "piracy",
+            "kopimism"
+        ],
+        "username": "thecopied",
         "image": false,
         "image_url": ""
     }
