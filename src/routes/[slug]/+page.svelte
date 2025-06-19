@@ -84,7 +84,7 @@
 	</div>
 </div>
 <div class="">
-	<div class="border mt-3">
+	<div class="border mt-1">
 		<Button onclick={toggleMode} variant="ghost" class="object-center text-white mask-r-from-70% mask-l-from-70% mask-t-from-60% mask-b-from-60% dark:hover:bg-input/70 hover:bg-input/20 hover:text-white">Frames</Button>
 	</div>
 </div>
