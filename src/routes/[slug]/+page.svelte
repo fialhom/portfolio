@@ -7,15 +7,17 @@
 	import { toggleMode } from "mode-watcher";
     import { ScrollArea } from "$lib/components/ui/scroll-area/index.js";
 
+    import * as DropdownMenu from "$lib/components/ui/dropdown-menu/index.js";
+
     import { page } from '$app/state';
     import rawdata  from '$lib/data/metadata.json';
     const data = rawdata.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
+
+
     const slugurl = page.params.slug;
     const slugItems = slugurl === "everything" ? data : data.filter(item => item.category === slugurl);
         
-    console.log(slugItems)
-
     let search: string = $state<string>('');
     let filterItems = $derived(
         search === ''
@@ -23,9 +25,12 @@
         : slugItems.filter((entry) => {
             const searchLower = search.toLocaleLowerCase();
             const nameMatch = entry.title.toLocaleLowerCase().includes(searchLower)
+            const userMatch = entry.username.toLocaleLowerCase().includes(searchLower)
+            const catMatch = entry.category.toLocaleLowerCase().includes(searchLower)
             const tagMatch = entry.tags.toString().toLocaleLowerCase().includes(searchLower)
+            console.log(entry.tags.toString().toLocaleLowerCase())
             const descMatch = entry.description.toLocaleLowerCase().includes(searchLower)
-            return nameMatch || tagMatch || descMatch
+            return nameMatch || tagMatch || descMatch || userMatch || catMatch
         }
     )
     );
