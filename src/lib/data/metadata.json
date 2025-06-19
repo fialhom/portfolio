@@ -114,7 +114,7 @@
             "ai",
             "chatgpt",
             "freedom",
-            "nonfiction"
+            "nonfic"
         ],
         "username": "",
         "image": false,
@@ -134,7 +134,7 @@
             "copyleft",
             "digital",
             "article",
-            "nonfiction"
+            "nonfic"
         ],
         "username": "",
         "image": false,
@@ -149,7 +149,7 @@
         "local": true,
         "url": "/files/writing/joy_of_fish.pdf",
         "tags": [
-            "article",
+            "essay",
             "summary",
             "oneness",
             "daoism",
@@ -280,7 +280,7 @@
             "searchbar",
             "digital",
             "ai",
-            "nonfiction",
+            "nonfic",
             "philosophy",
             "copy"
         ],
@@ -433,6 +433,120 @@
             "tailwind"
         ],
         "username": "",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "wiisports",
+        "category": "music",
+        "title": "Wii Sports + Wii Resort Expansion Pack DLC [REMASTER] Unreleased Soundtrack Bonus ",
+        "date": "2022-06",
+        "description": "Experimental electronic EP composed of samples from Wii Sports and Wii Sports Resort",
+        "local": false,
+        "url": "https://og2n.bandcamp.com/album/wii-sports-wii-resort-expansion-pack-dlc-remaster-unreleased-soundtrack-bonus",
+        "tags": [
+            "digital",
+            "electronic",
+            "experimental",
+            "wii",
+            "sample",
+            "music"
+        ],
+        "username": "OG2N",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "songdestroyed",
+        "category": "music",
+        "title": "song_destroyed",
+        "date": "2022-11",
+        "description": "Regressive experimental electronic album",
+        "local": false,
+        "url": "https://og2n.bandcamp.com/album/song-destroyed",
+        "tags": [
+            "electronic",
+            "experimental",
+            "regression"
+        ],
+        "username": "OG2N",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "snowfall",
+        "category": "music",
+        "title": "First Snowfall After Global Warming",
+        "date": "2024-01",
+        "description": "Electronic single",
+        "local": false,
+        "url": "https://og2n.bandcamp.com/track/first-snowfall-after-global-warming",
+        "tags": [
+            "electronic",
+            "vaporwave",
+            "vapor"
+        ],
+        "username": "OG2N",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "sillyphilosophy",
+        "category": "video",
+        "title": "Neuralink: A Silly Philosophy of Interfaced Consciousness | Video Essay",
+        "date": "2021-05",
+        "description": "Video essay analyzing the Neuralink 2020 Progress Update Livestream, featuring comments by Elon Musk, Max Hodak, and other Neuralink team members.",
+        "local": false,
+        "url": "https://www.youtube.com/watch?v=g1C8ptbnsvo",
+        "tags": [
+            "video",
+            "essay",
+            "musk",
+            "neuralink",
+            "philosophy",
+            "ai"
+        ],
+        "username": "Manuel Pereira",
+        "image": false,
+        "image_url": ""
+    },
+    {
+        "id": "reactions_ep",
+        "category": "video",
+        "title": "Reactions to Content [Videos]",
+        "date": "2021-07",
+        "description": "Each track is a triad of audio, image, and description. The image is a condensation of digital phenomena; the audio is a response to the image; the video is an exaggeration in parallel of the image; the description is perpendicular to and intersects with both the image and the audio.",
+        "local": false,
+        "url": "https://www.youtube.com/watch?v=AydC7TDUvMs",
+        "tags": [
+            "experimental",
+            "music",
+            "video",
+            "electronic",
+            "content",
+            "glitch"
+        ],
+        "username": "Manuel Pereira",
+        "image": false,
+        "image_url": ""
+    },
+        {
+        "id": "reactions_ep",
+        "category": "music",
+        "title": "Reactions to Content [EP]",
+        "date": "2021-07",
+        "description": "Each track is a triad of audio, image, and description. The image is a condensation of digital phenomena; the audio is a response to the image; the video is an exaggeration in parallel of the image; the description is perpendicular to and intersects with both the image and the audio.",
+        "local": false,
+        "url": "https://www.youtube.com/watch?v=AydC7TDUvMs",
+        "tags": [
+            "experimental",
+            "music",
+            "video",
+            "electronic",
+            "content",
+            "glitch"
+        ],
+        "username": "Manuel Pereira",
         "image": false,
         "image_url": ""
     }
