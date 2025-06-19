@@ -67,7 +67,11 @@
                         <a href="{entry.url}" class="h-fit">
                         <div class="p-2 rounded-l transition duration-900 sm:mask-r-from-80% mask-l-from-90% mask-t-from-80% mask-b-from-80% hover:bg-violet-200/30 ">
                             <h2 class="p-1 dark:underline decoration-dotted sm:underline-offset-10 border sm:text-3xl text-xl text-white font-serif h-fit sm:ml-15">{entry.title}</h2>
-                            <p class="p-1 border text-white mt-1 sm:ml-15 font-serif font-light sm:text-lg text-md italic">{entry.date.slice(0,4)}</p>
+                            <p class="p-1 border text-white mt-1 sm:ml-15 font-serif font-light sm:text-lg text-md italic">{entry.date.slice(0,4)} 
+                                {#if entry.username}
+                                    - {entry.username}
+                                {/if}
+                            </p>
                             <p class="p-1 border text-white mt-1 sm:ml-15 sm:mr-15 font-serif sm:text-lg text-md">{entry.description}</p>
                         </div>
                         </a>
