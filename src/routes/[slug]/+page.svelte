@@ -57,7 +57,7 @@
             </div>
 		</div>
         
-        <ScrollArea class="sm:max-h-[80vh] max-h-[70vh] overflow-auto" type="auto">
+        <ScrollArea class="sm:max-h-[78vh] max-h-[70vh] overflow-auto" type="auto">
         <div class="border grid grid-cols-8 p-2 space-y-5 space-x-2">
             
             {#each filterItems as entry}

@@ -588,5 +588,23 @@
         "username": "thecopied",
         "image": false,
         "image_url": ""
+    },
+    {
+        "id": "frames",
+        "category": "video",
+        "title": "Framing Iteration v10.6.3",
+        "date": "2025-06",
+        "description": "Collage video of AI generated videos, effects, manipulations, and compositions.",
+        "local": false,
+        "url": "https://archive.org/details/v10_06_03",
+        "tags": [
+            "ai",
+            "experimental film",
+            "digital",
+            "copy"
+        ],
+        "username": "",
+        "image": false,
+        "image_url": ""
     }
 ]

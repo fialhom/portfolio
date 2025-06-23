@@ -41,7 +41,6 @@
 		<div class="border col-span-4 p-2">
 			<br>
 			<p class="sm:text-lg text-md text-white font-serif ml-10 h-fit sm:mt-10">This website is a portfolio of the work I have done professionally, academically, and personally.</p>
-			<p class="sm:text-lg text-md text-white font-serif ml-10 h-fit mt-5">contact: email</p>
 		</div>
 	</div>
 </div>
