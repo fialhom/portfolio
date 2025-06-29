@@ -1,0 +1,616 @@
+{
+    "meta_info": {
+        "lastupdate": "2025-06-29",
+        "totalitems": 32
+    },
+    "items": [
+        {
+            "id": "free_lunch",
+            "category": "code",
+            "title": "No Such Thing As A Free Lunch",
+            "date": "2024-03",
+            "description": "A Data Visualization of Free and Reduced Lunch in the United States. Made using python and dash, this visualization was generated using publically available data from the National Center for Education Statistics (NCES).",
+            "local": false,
+            "url": "https://github.com/fialhom/FreeLunch",
+            "tags": [
+                "python",
+                "analysis",
+                "data",
+                "visualization",
+                "education",
+                "statistics"
+            ],
+            "username": "fialhom",
+            "image": true,
+            "image_url": "images/fig_01.png"
+        },
+        {
+            "id": "PKD_Corpus",
+            "category": "code",
+            "title": "Corpus Analysis of Philip K Dick",
+            "date": "2024-02",
+            "description": "Created topic models, keyword analysis, and similarity matrices from TEI formatted and vectorized corpus of Philp K Dick works, analyzed with PhiloLogic to produce concordance and key-word trends and cleaned and\nNLP pre-processed. Focused on qualitative interpretation of results, as well as the reasoning and logic behind specific choices and their outcomes during both pre and post processing of the data.",
+            "local": false,
+            "url": "https://github.com/fialhom/PKD-CorpusStatistics",
+            "tags": [
+                "sci-fi",
+                "dick",
+                "corpus",
+                "vectorization",
+                "python",
+                "text",
+                "analysis",
+                "statistics"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "lessondb",
+            "category": "code",
+            "title": "SQL Lesson Plan Database",
+            "date": "2024-12",
+            "description": "A 3NF SQL database with modular lesson plan data and custom schema. Contains sample queries to produce illustrative examples of the database structure and reasoning.",
+            "local": false,
+            "url": "https://github.com/fialhom/LessonPlan-Database",
+            "tags": [
+                "data",
+                "education",
+                "sql",
+                "lesson",
+                "metadata",
+                "schema",
+                "database",
+                "query"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "lessongui",
+            "category": "code",
+            "title": "Visual Lesson Plan Interface",
+            "date": "2023-08",
+            "description": "Made a user-interface for my personal Lesson Plan and Agenda software using Tkinter. Used to display all lesson plan data in a rotating schedule with an editing interface; saved all data to local JSON.",
+            "local": false,
+            "url": "https://github.com/fialhom/LessonPlan-Interface",
+            "tags": [
+                "data",
+                "database",
+                "education",
+                "lesson",
+                "python",
+                "visualization"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "symbol",
+            "category": "writing",
+            "title": "Symbol",
+            "date": "2023-01",
+            "description": "Visual Poem",
+            "local": true,
+            "url": "/files/writing/symbol.pdf",
+            "tags": [
+                "poetry",
+                "symbol",
+                "simulacra"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "chatgpt",
+            "category": "writing",
+            "title": "ChatGPT as a Means of Understanding Human Freedom",
+            "date": "2023-01",
+            "description": "Article on the advent of ChatGPT and creativity",
+            "local": true,
+            "url": "/files/writing/chatgpt.pdf",
+            "tags": [
+                "simulacra",
+                "article",
+                "ai",
+                "chatgpt",
+                "freedom",
+                "nonfic"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "piracy",
+            "category": "writing",
+            "title": "Is a Pirate\u2019s Life Really the Life for Me?",
+            "date": "2020-08",
+            "description": "Article on copyright and copyleft, and various forms of downloading digital content",
+            "local": true,
+            "url": "/files/writing/piracy.pdf",
+            "tags": [
+                "piracy",
+                "copyright",
+                "copyleft",
+                "digital",
+                "article",
+                "nonfic"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "joyfish",
+            "category": "writing",
+            "title": "The Joy of Fish",
+            "date": "2019-01",
+            "description": "Summary review and analysis of Philip J Ivanhoe's \"Oneness Hypothesis\"",
+            "local": true,
+            "url": "/files/writing/joy_of_fish.pdf",
+            "tags": [
+                "essay",
+                "summary",
+                "oneness",
+                "daoism",
+                "philosophy"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "catperson",
+            "category": "writing",
+            "title": "Cardboard Cutout Personality in \"Cat Person\"",
+            "date": "2019-01",
+            "description": "Essay on Roupenian short story",
+            "local": true,
+            "url": "/files/writing/cat_person.pdf",
+            "tags": [
+                "essay",
+                "analysis",
+                "simulacra",
+                "literature"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "LionKingFrozen",
+            "category": "writing",
+            "title": "The Wolf in Grandmother's Clothes: Monarchies in Disney's Frozen",
+            "date": "2020-01",
+            "description": "Essay analyzing the Monarch's journey in Frozen and The Lion King, concluding with an analyis of power, sisterhood, and class.",
+            "local": true,
+            "url": "/files/writing/LionKingFrozen.pdf",
+            "tags": [
+                "disney",
+                "frozen",
+                "lionking",
+                "analysis",
+                "essay",
+                "film"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "hemroids",
+            "category": "writing",
+            "title": "The Brutal Reality of Living is Inescapable",
+            "date": "2021-01",
+            "description": "Poem",
+            "local": true,
+            "url": "/files/writing/hemroids.pdf",
+            "tags": [
+                "poetry",
+                "suffering"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "ukraine_ai",
+            "category": "writing",
+            "title": "Baudrillard Sipping Amphetamines: Writing About Random News Articles Part 2",
+            "date": "2022-03",
+            "description": "Short pastiche of Simulacra and Simulation",
+            "local": true,
+            "url": "/files/writing/ukraine_ai.pdf",
+            "tags": [
+                "pastiche",
+                "ai",
+                "simulacra",
+                "article",
+                "copy"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "kingclay",
+            "category": "writing",
+            "title": "The King and Clay",
+            "date": "2018-01",
+            "description": "Short story",
+            "local": true,
+            "url": "/files/writing/kingclay.pdf",
+            "tags": [
+                "story",
+                "fiction",
+                "digital"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "intimatespace",
+            "category": "writing",
+            "title": "The Intimate Space Between Molecules",
+            "date": "2019-01",
+            "description": "Essay on DeLillo's White Noise",
+            "local": true,
+            "url": "/files/writing/intimatespace.pdf",
+            "tags": [
+                "essay",
+                "analysis",
+                "post-modern",
+                "delillo"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "searchbar",
+            "category": "writing",
+            "title": "Searchbar Seduction",
+            "date": "2022-01",
+            "description": "Revised and updated article on the effects of using a Searchbar",
+            "local": true,
+            "url": "/files/writing/searchbarseduction.pdf",
+            "tags": [
+                "article",
+                "searchbar",
+                "digital",
+                "ai",
+                "nonfic",
+                "philosophy",
+                "copy"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "manwalks",
+            "category": "writing",
+            "title": "Man Walks Into A Searchbar",
+            "date": "2019-01",
+            "description": "Article on the effects of using a searchbar",
+            "local": true,
+            "url": "/files/writing/manwalksinto.pdf",
+            "tags": [
+                "article",
+                "digital",
+                "searchbar",
+                "copy"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "critique",
+            "category": "writing",
+            "title": "Critique of the Privatization of Content",
+            "date": "2020-01",
+            "description": "Manifesto on the privatization of content and copyright",
+            "local": true,
+            "url": "/files/writing/critique.pdf",
+            "tags": [
+                "copyright",
+                "digital",
+                "philosophy",
+                "piracy",
+                "copy"
+            ],
+            "username": "thecopied",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "daffodil",
+            "category": "writing",
+            "title": "Legend of the Daffodil",
+            "date": "2019-01",
+            "description": "Short story retelling the Myth of Narcissus",
+            "local": true,
+            "url": "/files/writing/daffodil.pdf",
+            "tags": [
+                "narcissus",
+                "myth",
+                "digital",
+                "copy"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "defininguser",
+            "category": "writing",
+            "title": "Defining User: A Review of the Internet",
+            "date": "2020-05",
+            "description": "Review analysis of the iternet from 1995-2017, analyzing vocabulary surrounding internet usage",
+            "local": true,
+            "url": "/files/writing/defining_user.pdf",
+            "tags": [
+                "user",
+                "review",
+                "analysis",
+                "internet",
+                "digital",
+                "copy",
+                "freedom"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "dance",
+            "category": "writing",
+            "title": "Dance of the Marionette",
+            "date": "2020-05",
+            "description": "Poetry chapbook with themes of digital engagement",
+            "local": true,
+            "url": "/files/writing/dance_chapbook.pdf",
+            "tags": [
+                "poetry",
+                "digitial",
+                "internet",
+                "freedom",
+                "copy"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "considerations",
+            "category": "writing",
+            "title": "Considerations",
+            "date": "2022-01",
+            "description": "Concrete Poem",
+            "local": true,
+            "url": "/files/writing/considerations.pdf",
+            "tags": [
+                "poetry",
+                "love"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "hashtagmetaverse",
+            "category": "music",
+            "title": "hashtag metaverse",
+            "date": "2022-01",
+            "description": "Experimental electronic EP",
+            "local": false,
+            "url": "https://og2n.bandcamp.com/album/hashtag-metaverse",
+            "tags": [
+                "metaverse",
+                "ai",
+                "electronic",
+                "experimental"
+            ],
+            "username": "OG2N",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "portfolio",
+            "category": "code",
+            "title": "Portfolio Website",
+            "date": "2025-06",
+            "description": "Dynamic website made with Svelte and styled with Tailwind",
+            "local": false,
+            "url": "/",
+            "tags": [
+                "javascript",
+                "html",
+                "css",
+                "svelte",
+                "tailwind"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "wiisports",
+            "category": "music",
+            "title": "Wii Sports + Wii Resort Expansion Pack DLC [REMASTER] Unreleased Soundtrack Bonus ",
+            "date": "2022-06",
+            "description": "Experimental electronic EP composed of samples from Wii Sports and Wii Sports Resort",
+            "local": false,
+            "url": "https://og2n.bandcamp.com/album/wii-sports-wii-resort-expansion-pack-dlc-remaster-unreleased-soundtrack-bonus",
+            "tags": [
+                "digital",
+                "electronic",
+                "experimental",
+                "wii",
+                "sample",
+                "music"
+            ],
+            "username": "OG2N",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "songdestroyed",
+            "category": "music",
+            "title": "song_destroyed",
+            "date": "2022-11",
+            "description": "Regressive experimental electronic album",
+            "local": false,
+            "url": "https://og2n.bandcamp.com/album/song-destroyed",
+            "tags": [
+                "electronic",
+                "experimental",
+                "regression"
+            ],
+            "username": "OG2N",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "snowfall",
+            "category": "music",
+            "title": "First Snowfall After Global Warming",
+            "date": "2024-01",
+            "description": "Electronic single",
+            "local": false,
+            "url": "https://og2n.bandcamp.com/track/first-snowfall-after-global-warming",
+            "tags": [
+                "electronic",
+                "vaporwave",
+                "vapor"
+            ],
+            "username": "OG2N",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "sillyphilosophy",
+            "category": "video",
+            "title": "Neuralink: A Silly Philosophy of Interfaced Consciousness | Video Essay",
+            "date": "2021-05",
+            "description": "Video essay analyzing the Neuralink 2020 Progress Update Livestream, featuring comments by Elon Musk, Max Hodak, and other Neuralink team members.",
+            "local": false,
+            "url": "https://www.youtube.com/watch?v=g1C8ptbnsvo",
+            "tags": [
+                "video",
+                "essay",
+                "musk",
+                "neuralink",
+                "philosophy",
+                "ai"
+            ],
+            "username": "Manuel Pereira",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "reactions_ep",
+            "category": "video",
+            "title": "Reactions to Content [Videos]",
+            "date": "2021-07",
+            "description": "Each track is a triad of audio, image, and description. The image is a condensation of digital phenomena; the audio is a response to the image; the video is an exaggeration in parallel of the image; the description is perpendicular to and intersects with both the image and the audio.",
+            "local": false,
+            "url": "https://www.youtube.com/watch?v=AydC7TDUvMs",
+            "tags": [
+                "experimental",
+                "music",
+                "video",
+                "electronic",
+                "content",
+                "glitch"
+            ],
+            "username": "Manuel Pereira",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "unitguide",
+            "category": "curricula",
+            "title": "Identity and Reputation Unit Guide for 11 ELA",
+            "date": "2019-12",
+            "description": "Unit guide aligned to CC standards for 11 ELA in a Massachuseets public school, focused on Identity and Reputation with the Great Gatsby.",
+            "local": true,
+            "url": "/files/curricula/unit_guide_ela11.pdf",
+            "tags": [
+                "ela",
+                "unit",
+                "gatsby",
+                "11th",
+                "common core"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "adamb",
+            "category": "code",
+            "title": "Adam Baudrillard, the First Icon",
+            "date": "2020-10",
+            "description": "HTML Simulacra of the New Yorker",
+            "local": false,
+            "url": "https://thecopied.github.io/pages/things/adambaudrillard/adambaudrillard.html",
+            "tags": [
+                "html",
+                "new yorker",
+                "simulacra",
+                "copy",
+                "digital",
+                "fiction"
+            ],
+            "username": "Manuel Pereira",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "copymachine",
+            "category": "code",
+            "title": "copymachine",
+            "date": "2021-01",
+            "description": "Code art piece on copyright and infinity",
+            "local": false,
+            "url": "https://thecopied.github.io/pages/things/copymachine/copymachine.html",
+            "tags": [
+                "copyright",
+                "copy",
+                "artwork",
+                "machine",
+                "piracy",
+                "kopimism"
+            ],
+            "username": "thecopied",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "frames",
+            "category": "video",
+            "title": "Framing Iteration v10.6.3",
+            "date": "2025-06",
+            "description": "Collage video of AI generated videos, effects, manipulations, and compositions.",
+            "local": false,
+            "url": "https://archive.org/details/v10_06_03",
+            "tags": [
+                "ai",
+                "experimental film",
+                "digital",
+                "copy"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        }
+    ]
+}
