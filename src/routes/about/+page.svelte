@@ -7,7 +7,7 @@
     import { ScrollArea } from "$lib/components/ui/scroll-area/index.js";
 
     import { page } from '$app/state';
-    import data  from '$lib/data/metadata.json';
+   // import data  from '$lib/data/portfolio_data.json';
 
     const slugurl = page.params.slug
 </script>

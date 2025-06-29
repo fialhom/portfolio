@@ -2,25 +2,44 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
 import json
-from datetime import datetime
+from datetime import datetime, date
 import os
 
-DATA_FILE = "src/lib/data/metadata.json"
+DATA_FILE = "src/lib/data/portfolio_data.json"
 SECTIONS = ["writing", "code", "curricula", "music", "video"]
 BOOL_OPTIONS = ["True", "False"]
 
-def load_data():
+def load_data(x=None):
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r") as f:
             try:
-                return json.load(f)
+                raw = json.load(f)
+                if x == "m":
+                    return raw["meta"]
+                else:
+                    return raw["items"]
+                #return json.load(f)
             except json.JSONDecodeError:
                 return []
     return []
 
+def meta(raw):
+    count = len(raw)
+    today = date.today().strftime("%Y-%m-%d")
+
+    new_meta = {
+        "lastupdate": today,
+        "totalitems": count
+    }
+    return new_meta
+
 def save_data(data):
+    new_data = {
+        "meta_info": meta(data),
+        "items": data,
+    }
     with open(DATA_FILE, "w") as f:
-        json.dump(data, f, indent=4)
+        json.dump(new_data, f, indent=4)
 
 def is_valid_date(date_str):
     accepted_formats = ["%Y-%m", "%Y-%m-%d", "%b%Y", "%b %Y", "%B%Y", "%B %Y", "%Y"]
@@ -42,13 +61,12 @@ def validate_data(raw_inputs, editing=False):
             continue
         if not is_filled(raw_inputs[field]):
             return False, f"The field '{field}' must be filled."
-
     if raw_inputs["local"] not in BOOL_OPTIONS:
         return False, "Local must be selected as either True or False."
 
     if raw_inputs["image"] not in BOOL_OPTIONS:
         return False, "Image must be selected as either True or False."
-
+    
     if not is_valid_date(raw_inputs["date"]):
         return False, "Date must be in the format YYYY-MM or YYYY-MM-DD or like Dec2023."
 
@@ -67,7 +85,6 @@ def validate_data(raw_inputs, editing=False):
         full_path = os.path.abspath(local_url.lstrip("/"))  # remove leading slash for relative path
         if not os.path.isfile(full_path):
             return False, f"The local file '{full_path}' does not exist."
-
 
     if not editing:
         data = load_data()

@@ -2,6 +2,7 @@
     import '../../app.css';
 	import '@fontsource-variable/eb-garamond';
 
+    import type { PortfolioData } from "$lib";
     import { Input } from "$lib/components/ui/input/index.js";
 	import { Button } from "$lib/components/ui/button/index.js";
 	import { toggleMode } from "mode-watcher";
@@ -10,10 +11,12 @@
     import * as DropdownMenu from "$lib/components/ui/dropdown-menu/index.js";
 
     import { page } from '$app/state';
-    import rawdata  from '$lib/data/metadata.json';
-    const data = rawdata.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    import raw_json from '$lib/data/portfolio_data.json';
 
+    const portfolio_data: PortfolioData = raw_json;
 
+    const data = portfolio_data.items.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    const updated = portfolio_data.meta_info.lastupdate
 
     const slugurl = page.params.slug;
     const slugItems = slugurl === "everything" ? data : data.filter(item => item.category === slugurl);
