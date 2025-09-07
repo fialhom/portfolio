@@ -1,7 +1,7 @@
 {
     "meta_info": {
-        "lastupdate": "2025-06-29",
-        "totalitems": 32
+        "lastupdate": "2025-09-07",
+        "totalitems": 33
     },
     "items": [
         {
@@ -607,6 +607,27 @@
                 "experimental film",
                 "digital",
                 "copy"
+            ],
+            "username": "",
+            "image": false,
+            "image_url": ""
+        },
+        {
+            "id": "babelblock",
+            "category": "writing",
+            "title": "Public school blocks Library of Babel",
+            "date": "2025-09",
+            "description": "HTML story about blocking network access to Library of Babel",
+            "local": false,
+            "url": "https://thecopied.github.io/pages/things/babel/page.html",
+            "tags": [
+                "library",
+                "babel",
+                "borges",
+                "digital",
+                "experimental",
+                "html",
+                "simulacra"
             ],
             "username": "",
             "image": false,
